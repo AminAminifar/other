@@ -1,0 +1,24 @@
+function theta = choose_action( pi,x,phi)
+%CHOOSE_ACTION Summary of this function goes here
+%   Detailed explanation goes here
+epsilon = .9;
+
+[x_i,phi_i,~] = Q_index(x,phi,1);
+if rand(1) < epsilon
+    [~,I] = max(Q(x_i,phi_i,:));
+    action = pi(x_i,phi_i);
+else
+    a = 0;
+    b = pi;
+    I = (b-a)*rand(1) + a;
+    action = I;
+end
+
+% if action < 5
+%     theta = action;
+% else
+%     theta = action - 10;
+% end
+theta = action;
+end
+

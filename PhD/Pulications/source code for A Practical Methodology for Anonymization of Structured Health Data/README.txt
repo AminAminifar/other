@@ -1,0 +1,1 @@
+In case of using the sourcecodes please cite: Aminifar, Amin, et al. "A Practical Methodology for Anonymization of Structured Health Data." SHI 2019. Proceedings of the 17th Scandinavian Conference on Health Informatics, November 12-13, 2019, Oslo, Norway. No. 161. Linköping University Electronic Press, 2019.

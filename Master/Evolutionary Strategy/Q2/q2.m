@@ -1,0 +1,1 @@
+multiple_runs('sphere', 10, -10, 10, 10000, 1)
